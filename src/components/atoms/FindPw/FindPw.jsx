@@ -1,10 +1,11 @@
 import React from "react";
 
-export default function FindPw() {
+const FindPw = () => {
   return (
     <>
-      <label htmlFor="">비밀번호 찾기</label>
-      <input type="text" name="" id="" />
+      <p>비밀번호 찾기</p>
     </>
   );
-}
+};
+
+export default FindPw;

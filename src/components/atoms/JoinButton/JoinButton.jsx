@@ -1,9 +1,11 @@
 import React from "react";
 
-export default function Join() {
+const JoinButton = () => {
   return (
-    <div>
+    <>
       <button>회원가입</button>
-    </div>
+    </>
   );
-}
+};
+
+export default JoinButton;

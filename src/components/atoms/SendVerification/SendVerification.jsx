@@ -1,9 +1,11 @@
 import React from "react";
 
-export default function SendVerification() {
+const SendVerification = () => {
   return (
     <>
       <button>인증번호 발송</button>
     </>
   );
-}
+};
+
+export default SendVerification;

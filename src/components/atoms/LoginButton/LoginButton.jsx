@@ -1,9 +1,11 @@
 import React from "react";
 
-export default function LoginButton() {
+const LoginButton = () => {
   return (
     <>
       <button>로그인</button>
     </>
   );
-}
+};
+
+export default LoginButton;

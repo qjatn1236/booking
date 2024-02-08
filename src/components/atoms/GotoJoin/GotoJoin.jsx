@@ -1,9 +1,11 @@
 import React from "react";
 
-export default function GotoJoin() {
+const GotoJoin = () => {
   return (
     <>
       <button>회원가입</button>
     </>
   );
-}
+};
+
+export default GotoJoin;

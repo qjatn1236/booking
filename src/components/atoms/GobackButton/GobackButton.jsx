@@ -1,9 +1,11 @@
 import React from "react";
 
-export default function GobackButton() {
+const GobackButton = () => {
   return (
     <>
       <button>뒤로</button>
     </>
   );
-}
+};
+
+export default GobackButton;

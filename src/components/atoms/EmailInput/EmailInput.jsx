@@ -1,10 +1,12 @@
 import React from "react";
 
-export default function EmailInput() {
+const EmailInput = () => {
   return (
     <div>
-      <label htmlFor=""></label>
-      <input type="text" placeholder="이메일을 입력해주세요." />
+      <input type="email" placeholder="이메일을 입력해주세요." />
+      <span>이메일을 입력해주세요.</span>
     </div>
   );
-}
+};
+
+export default EmailInput;
