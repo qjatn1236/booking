@@ -1,10 +1,11 @@
 import React from "react";
+import JoinForm from "../../organisms/JoinForm/JoinForm";
 
 const Join = () => {
   return (
-    <div>
-      <p>Join</p>
-    </div>
+    <>
+      <JoinForm />
+    </>
   );
 };
 
