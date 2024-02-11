@@ -1,9 +1,12 @@
 import React from "react";
+import LoginForm from "../../organisms/LoginForm/LoginForm";
+import MainFooter from "../../organisms/MainFooter/MainFooter";
 
 const Login = () => {
   return (
     <div>
-      <p>Login</p>
+      <LoginForm></LoginForm>
+      <MainFooter></MainFooter>
     </div>
   );
 };
